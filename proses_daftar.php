@@ -36,3 +36,42 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 // Menutup koneksi database
 mysqli_close($connection);
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Proses Pendaftaran Siswa Baru</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f5e6cc;
+        }
+        .form-container {
+            background-color: #654321;
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .form-container label {
+            color: #fff;
+        }
+        .form-container input[type="text"],
+        .form-container textarea,
+        .form-container select {
+            background-color: #fff;
+            color: #000;
+        }
+        .form-container input[type="submit"] {
+            background-color: #ffd700;
+            color: #000;
+        }
+        .form-container input[type="submit"]:hover {
+            background-color: #c0a080;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>

@@ -2,12 +2,36 @@
 <html>
 <head>
     <title>Pendaftaran Siswa Baru</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f5e6cc;
+        }
+        .menu-container {
+            background-color: #654321;
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .menu-container a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .menu-container a:hover {
+            color: #ffd700;
+        }
+    </style>
 </head>
 <body>
-    <h2>Menu</h2>
-    <ul>
-        <li><a href="daftar_baru.php">Daftar Baru</a></li>
-        <li><a href="pendaftaran.php">Pendaftaran</a></li>
-    </ul>
+    <div class="container mt-4">
+        <div class="menu-container">
+            <h2>Menu</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="daftar_baru.php">Daftar Baru</a></li>
+                <li class="list-group-item"><a href="pendaftaran.php">Pendaftaran</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
